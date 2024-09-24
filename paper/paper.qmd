@@ -1,0 +1,28 @@
+---
+title: "Demographic Factors That Potentially Influence Reports of Mental Health Act Apprehensions in the Greater Toronto Area"
+title-block-banner: true
+author:    
+  - Gauravpreet Thind
+thanks: "Data and code can be retrieved from  https://github.com/GauravT-crypto/Mental-Health-Apprehensions"
+
+date: today
+date-format: long
+abstract: ""
+format: pdf   
+toc: true
+number-sections: true
+bibliography: references.bib
+---
+
+```{r}
+
+#### Introduction ####
+
+"The Greater Toronto Area has experienced many cases of mental health reports within the last few years, some resulting in minor disturbances from individuals and others becoming potentally deadly and resulting in life threating cases. Mental health issues continue to be a significant public health challenge for the Toronto and its surrounding cities"
+
+"In urban environments, the ongoing mental health crisis has resulted in the need for effective intervension strategies, most particularly from emergrancy services. The Mental Health Apprehensions in Toronto dataset provides an effective approach for properly understadning the impact of the mental health crisis within Toronto."
+                        
+                            
+                             
+                                
+```
