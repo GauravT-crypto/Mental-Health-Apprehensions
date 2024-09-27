@@ -7,22 +7,47 @@ thanks: "Data and code can be retrieved from  https://github.com/GauravT-crypto/
 
 date: today
 date-format: long
-abstract: ""
+abstract: "Mental health issues are an occuring problem in the Greater Toronto Area, with many incidents taking places by individuals who suffer from mental health problems and resulting in the authorities getting involved. "
 format: pdf   
 toc: true
 number-sections: true
+
 bibliography: references.bib
 ---
 
 ```{r}
 
-#### Introduction ####
+library(AER)
+library(future)
+library(gitcreds)
+library(knitr)
+library(lintr)
+library(opendatatoronto)
+library(palmerpenguins)
+library(renv)
+library(reprex)
+library(styler)
+library(tictoc)
+library(tidyverse)
+library(tinytex)
+library(usethis)
+library(janitor)               
 
-"The Greater Toronto Area has experienced many cases of mental health reports within the last few years, some resulting in minor disturbances from individuals and others becoming potentally deadly and resulting in life threating cases. Mental health issues continue to be a significant public health challenge for the Toronto and its surrounding cities"
-
-"In urban environments, the ongoing mental health crisis has resulted in the need for effective intervension strategies, most particularly from emergrancy services. The Mental Health Apprehensions in Toronto dataset provides an effective approach for properly understadning the impact of the mental health crisis within Toronto."
-                        
-                            
-                             
-                                
 ```
+
+#### 1 Introduction
+
+The Greater Toronto Area has experienced many cases of mental health reports within the last few years, some resulting in minor disturbances from individuals and others becoming potentially deadly and resulting in life threatening cases. Mental health issues continue to be a significant public health challenge for the Toronto and its surrounding cities.
+
+In urban environments, the ongoing mental health crisis has resulted in the need for effective intervention strategies, most particularly from emergency services. The Mental Health Apprehensions in Toronto data set provides an effective approach for properly understanding the impact of the mental health crisis within Toronto. The Mental Health Act Apprehensions data set provided from Open Toronto (Gelfand 2022), shows reports from various incidents occurring in Toronto and the residents affected from individual's suffering from mental health issues. This paper analyses the Mental Health Act Apprehensions data set and provides a statistical report of the demographics and yearly reports provided from the data set that were retrieved from mental health apprehensions since 2014. Also providing the premise in which these incidents took place and the age of the perpetrators that were causing a disturbance due to suffering from various mental health issues.
+
+A detailed analysis of the police reports will also be provided that will categorize sections for the offense number in which the incident happens, the date reported, police divisions involved, and the neighborhoods for which the offences took place. Providing a through overview of how Toronto is being affected by Mental Health Apprehension and the kind of resources and actions being taken to address Mental Health Incidents from occuring.
+
+
+
+#### 2 Data
+
+The data set analyzed in this paper was provided from Mental Health Act Apprehensions (MHA) that occurred from 2014 to 2024 that was provided from the Toronto Police Services. The MHA act allows officers to have the authority to detain and apprehend an individual if they believe that person is a danger to themselves or the public (Mental Health Act, Ontario 2023). The MHA data set provides an analysis for:
+
+
+#### 2.1 Data
